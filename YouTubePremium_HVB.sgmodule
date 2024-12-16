@@ -3,7 +3,8 @@
 #!desc=Bypass YouTube Premium for free (Hoàng Văn Bảo)
 
 [General]
-user-agent = YouTube/16.18.4 (iPhone; iOS 16.0; Scale/3.00)
+user-agent = YouTube/18.0.0 (iPhone; iOS 18.0; Scale/3.00)
+
 
 [Script]
 # Script for YouTube Premium Free access
