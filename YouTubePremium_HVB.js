@@ -6,7 +6,7 @@ var premium_entitlement = {
   expires_date: "2099-12-18T01:04:17Z" // Đảm bảo quyền truy cập không hết hạn
 };
 
-// Kiểm tra trạng thái của phiên, nếu chưa bật thì bật lên
+// Kiểm tra trạng thái phiên, nếu chưa bật thì bật lên
 if (!$persistentStore.get("shadowEnabled")) {
   // Lưu trạng thái ShadowRocket đã được bật
   $persistentStore.set("shadowEnabled", true);
